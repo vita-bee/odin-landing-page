@@ -5,7 +5,7 @@ body {
   display: flex;
   flex-direction:column;
   flex: 1;
-  
+ 
 }
 
 .header {
@@ -119,16 +119,18 @@ img.img-box {
 .level3 {
   background-color: #e5e7eb;
   display: flex;
+  justify-content: center;
 }
 
 .quotebox {
+    width: 600px;
     margin-left: 70px;
     margin-right: 70px;
     padding:50px;
 }
 
 p.quote, p.author{
-    font-size: 24px;
+    font-size: 20px;
     font-style: italic;
     color: #1f2937;
     font-weight: 300;
@@ -138,6 +140,7 @@ p.author{
     text-align:right;
     font-weight: bold;
     font-style:normal;
+    font-size: 18px;
 }
 
 .footer {
