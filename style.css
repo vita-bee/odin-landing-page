@@ -6,7 +6,7 @@ body {
   flex-direction:column;
   width:100%;
   justify-content: center;
-  xalign-items: center;
+  align-items: center;
  
 }
 
@@ -25,7 +25,6 @@ ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
-  gap: 5px;
 }
 
 .links {
@@ -45,11 +44,12 @@ a {
   background: #1f2937;
   justify-content: center;
   width:100%;
+  gap: 40px;
 }
 
 .sign-up-container {
   padding: 30px;
-  width:40%;
+  width:30%;
   display: flex;
   flex-direction: column;
   gap: 10px;
